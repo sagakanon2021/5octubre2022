@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- DISEÑADO POR BRANDIX.EVACREATIVO.COM | www.evacreativo.com-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> diseño de menu de navegacion con imagen </title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <!--barra o menu de navegacion-->
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+<!--lugar de logotipo solo texto-->
+        <a href="#">evacreativo</a>
+<!-- fin lugar de logotipo solo texto-->
+<!--menu de navegacion de la web en una lista ordenada ul y li-->
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">sobre mi</a></li>
+        <li><a href="#">Portafolio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- fin barra o menu de navegacion-->
+  <section class="home"></section>
+  <div class="text">
+    <p><h2>MENU DE NAVEGACION</h2>
+    <p>Consultor con más 22 años de experiencia en branding y diseño, publicidad, marketing digital y web ,  docente universitario  en las áreas de diseño , marketing digital y fotografía ,desarrollo web así como docente investigador , cuento con una formación en publicidad, especialista en marketing  UNAB, con maestría en Tic para la educación UDI y maestría en marketing digital de la universidad de alcala, así como técnico industrial UDES y diseño industrial SENA y técnico en desarrollo web y software UIS certificación mintic.
+  </div>
+<!--AREA DE <script DE JAVA-->
+</script>
+  <script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
